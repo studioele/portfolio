@@ -1,14 +1,14 @@
 .header {
     font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
-    text-align: justify;
-    font-size: xx-large;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1.05rem;
 }
 
 
 .p1 {
     font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     text-align: justify;
     font-size: 0.85rem;
 }
