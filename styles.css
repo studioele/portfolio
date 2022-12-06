@@ -1,3 +1,9 @@
+.collapsing {
+    -webkit-transition: 0.01s;
+    transition: 0.01s;
+    display: none;
+}
+
 .header {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
