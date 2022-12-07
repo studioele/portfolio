@@ -22,3 +22,19 @@
 .main-wrapper{
     height: 100vh;
 }
+
+/* NAVIGATION LINKS */
+.link  {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+  }
+  
+  .link_active  {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+  }
