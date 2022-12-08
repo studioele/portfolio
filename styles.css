@@ -1,3 +1,14 @@
+html {
+  scroll-behavior: smooth;
+ }
+
+body {
+  max-width: 1980px;
+  margin: 0 auto;
+  margin-top: 8.5vh;
+  background-color: white;
+}
+
 .collapsing {
     -webkit-transition: 0.01s;
     transition: 0.01s;
