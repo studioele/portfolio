@@ -4,6 +4,11 @@
     display: none;
 }
 
+.btn{
+	box-shadow: none !important
+    /* this how we remove bootstrap button outline */
+}
+
 .header {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
@@ -26,15 +31,29 @@
 /* NAVIGATION LINKS */
 .link  {
     font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     color: black;
     text-align: center;
   }
   
   .link_active  {
     font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     color: black;
     text-align: center;
     text-decoration: underline;
+  }
+
+
+  /* DEVELOP BACKGROUNDS */
+  .bkgrd_1  {
+    background-color: white;
+  }
+
+  .bkgrd_2  {
+    background-color: white;
+  }
+
+  .bkgrd_3  {
+    background-color: white;
   }
