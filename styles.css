@@ -76,10 +76,16 @@ body {
     font-size: 1.05rem;
 }
 
+.topbar {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    font-size: 1.15rem;
+}
 
 .text-1 {
     font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     text-align: justify;
     font-size: 0.85rem;
     background-color: #ffffff;
@@ -88,7 +94,7 @@ body {
 
 .infoblock {
     font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     text-align: justify;
     font-size: 0.85rem;
     text-indent: 50px;
