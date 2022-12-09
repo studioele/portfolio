@@ -15,10 +15,59 @@ body {
     display: none;
 }
 
-.btn{
-	box-shadow: none !important
-    /* this how we remove bootstrap button outline */
+
+
+.btn-outline-group {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+
 }
+
+.btns-outline {
+  text-decoration: underline;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+}
+
+.btns-outline:hover {
+  text-decoration: underline;
+  border-radius: 0;
+}
+
+.btns-outline:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+}
+
+.btns-outline.active {
+  background: #ffffff;
+  outline: none !important;
+  box-shadow: none !important;
+  text-decoration: underline;
+  border-radius: 0;
+}
+
+
+/* .btn{ */
+  /* background-color: aqua; */
+	/* box-shadow: none !important */
+    /* this how we remove bootstrap button outline */
+/* } */
+
+/* .btn-link { */
+  /* font-family: 'Courier New', Courier, monospace; */
+/* } */
+
+/* .btns {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+} */
 
 .header {
     font-family: 'Work Sans', sans-serif;
@@ -28,15 +77,21 @@ body {
 }
 
 
-.p1 {
+.text-1 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
     text-align: justify;
     font-size: 0.85rem;
+    background-color: #ffffff;
 }
 
-.main-wrapper{
-    height: 100vh;
+
+.infoblock {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    text-align: justify;
+    font-size: 0.85rem;
+    text-indent: 50px;
 }
 
 /* NAVIGATION LINKS */
@@ -54,17 +109,35 @@ body {
     text-align: center;
     text-decoration: underline;
   }
+ 
 
-
-  /* DEVELOP BACKGROUNDS */
+  /* DEVELOP BACKGROUNDS COL */
   .bkgrd_1  {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
 
   .bkgrd_2  {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
 
   .bkgrd_3  {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
+
+  .bkgrd_test  {
+    background-color: rgb(255, 0, 0);
+  }
+
+
+  /* DEVELOP BACKGROUNDS WHITE
+  .bkgrd_1  {
+    background-color: rgb(177, 59, 59);
+  }
+
+  .bkgrd_2  {
+    background-color: rgb(28, 146, 63);
+  }
+
+  .bkgrd_3  {
+    background-color: rgb(74, 15, 212);
+  } */
