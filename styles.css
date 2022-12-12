@@ -4,149 +4,55 @@ html {
 
 body {
   max-width: 1980px;
-  margin: 0 auto;
-  margin-top: 8.5vh;
-  background-color: rgb(255, 255, 255);
-}
-
-.collapsing {
-    -webkit-transition: 0.01s;
-    transition: 0.01s;
-    display: none;
-}
-
-
-
-.btn-outline-group {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
-  border: none;
-  outline: none !important;
-  box-shadow: none !important;
-  border-radius: 0;
-
-}
-
-.btns-outline {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
-  text-decoration: underline;
-  outline: none !important;
-  box-shadow: none !important;
-  border-radius: 0;
-}
-
-.btns-outline:hover {
-  text-decoration: underline;
-  border-radius: 0;
-}
-
-.btns-outline:focus {
-  outline: none !important;
-  box-shadow: none !important;
-  border-radius: 0;
-}
-
-.btns-outline.active {
-  background: #ffffff;
-  outline: none !important;
-  box-shadow: none !important;
-  text-decoration: underline;
-  border-radius: 0;
+  margin: 8px auto; 
+  background-color: rgb(138, 137, 137);
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 
 
-/* .btn{ */
-  /* background-color: aqua; */
-	/* box-shadow: none !important */
-    /* this how we remove bootstrap button outline */
-/* } */
 
-/* .btn-link { */
-  /* font-family: 'Courier New', Courier, monospace; */
-/* } */
 
-/* .btns {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
-} */
-
-.header {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-    text-align: left;
-    font-size: 1.05rem;
+/* HEADER */
+.head {
+  height: 25px;
 }
 
-.topbar {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    text-align: left;
-    font-size: 1.15rem;
+/* PROJEKTNAME */
+.pr-name {
+  height: 25px;
 }
 
-.text-1 {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    text-align: justify;
-    font-size: 0.85rem;
-    background-color: #ffffff;
-}
-
-.text-2 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
-  text-align: justify;
-  font-size: 0.85rem;
-  background-color: #ffffff;
+.content {
+  padding: 58px auto 45px auto;
+  overflow: hidden;
 }
 
 
-.infoblock {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    text-align: justify;
-    font-size: 0.85rem;
-    text-indent: 50px;
+/* PROJEKINFO */
+.pr-info {
+  height: 25px;
+  bottom: 20px;
 }
 
-/* NAVIGATION LINKS */
-.link  {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
-    color: black;
-    text-align: center;
-  }
-  
-  .link_active  {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
-    color: black;
-    text-align: center;
-    text-decoration: underline;
-  }
- 
-
-  /* DEVELOP BACKGROUNDS COL */
-  .bkgrd_1  {
-    background-color: rgb(255, 255, 255);
-  }
-
-  .bkgrd_2  {
-    background-color: rgb(255, 255, 255);
-  }
-
-  .bkgrd_3  {
-    background-color: rgb(255, 255, 255);
-  }
-
-  .bkgrd_test  {
-    background-color: rgb(255, 0, 0);
-  }
+/* FOOTER */
+.foot {
+  height: 20px;
+}
 
 
-  /* DEVELOP BACKGROUNDS WHITE
+
+
+
+
+
+
+ /* DEVELOP BACKGROUNDS */
   .bkgrd_1  {
     background-color: rgb(177, 59, 59);
   }
@@ -157,37 +63,6 @@ body {
 
   .bkgrd_3  {
     background-color: rgb(74, 15, 212);
-  } */
+  }
 
-
-  /* NAVBAR_BOTTOM */
-.navigation_bottom {
-  bottom: 25px;
-  max-width: 1980px;
-  margin: 0 auto;
-  background-color: white;
-}
-
-/* LOGO */
-.logo  {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 24pt;
-  padding: 0px;
-  text-align: right;
-}
-
-  /* FOOTER */
-.footer{
-  max-width: 1980px;
-  margin: 0 auto;
-  height: 25px;
-  bottom: 0;
-  background-color: white;
-  font-size: 0.75rem;
-}
-/* END FOOTER */
-
-
-.offcanvas-size-sm {
-  --bs-offcanvas-width: min(95vw, 400px) !important;
-}
+  /* END DEVELOP BACKGROUNDS */
