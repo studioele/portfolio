@@ -5,7 +5,7 @@ html {
 body {
   max-width: 1980px;
   margin: 8px auto; 
-  background-color: rgb(138, 137, 137);
+  background-color: rgb(255, 255, 255);
   display: -webkit-flex;
   display: flex;
   -webkit-align-items: center;
@@ -20,16 +20,16 @@ body {
 
 /* HEADER */
 .head {
-  height: 25px;
+  height: 30px;
 }
 
 /* PROJEKTNAME */
 .pr-name {
-  height: 25px;
+  height: 45px;
 }
 
 .content {
-  padding: 58px auto 45px auto;
+  padding: 83px auto 45px auto;
   overflow: hidden;
 }
 
@@ -54,15 +54,15 @@ body {
 
  /* DEVELOP BACKGROUNDS */
   .bkgrd_1  {
-    background-color: rgb(177, 59, 59);
+    background-color: rgb(255, 255, 255);
   }
 
   .bkgrd_2  {
-    background-color: rgb(28, 146, 63);
+    background-color: rgb(255, 255, 255);
   }
 
   .bkgrd_3  {
-    background-color: rgb(74, 15, 212);
+    background-color: rgb(255, 255, 255);
   }
 
   /* END DEVELOP BACKGROUNDS */
