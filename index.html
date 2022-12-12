@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>studio ELE Portfolio</title>
+        <title>studio ELE</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Work+Sans:wght@200;300;400&display=swap" rel="stylesheet">
@@ -18,34 +18,58 @@
 
 
             <!-- ERSTE ZEILE: HEADER -->
-            <div class="row header align-items-start bkgrd_1">
-                <div class="col-4 text-header-m">
-                    <a class="link" href="">über</a>
-                </div>
-                <div class="col-4 text-center text-header-l">
+            <div class="row header align-items-end">
+                <div class="col-12 text-center text-header-l">
                     studio ELE
                 </div>
-                <div class="col-4 text-end text-header-m">
-                    <a class="link" data-bs-toggle="offcanvas" href="#projectList" role="button" aria-controls="projectInfo">
-                        Projekte    
+            </div>
+
+            <!-- ZWEITE ZEILE: PROJEKTNAME -->
+            <div class="row pr-name align-items-center">
+                <div class="col-12 text-center">
+                    <a class="link_bold" data-bs-toggle="offcanvas" href="#projectInfo" role="button" aria-controls="projectInfo">
+                        Mehrfamilienhaus mit 6 Wohneinheiten und Tiefgarage
                     </a>
                 </div>
             </div>
-            <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="projectList" aria-labelledby="projectListLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="projectListLabel">Backdrop with scrolling</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
+            
+            <!-- OFFCANVAS -->
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="projectInfo" data-bs-scroll="true" data-bs-backdrop="true" aria-labelledby="projectInfoLabel">
                 <div class="offcanvas-body">
-                  <p>Try scrolling the rest of the page to see this option in action.</p>
-                </div>
-              </div>
+                    <div>
+                        <dl class="row">
+                            <dt class="col-sm-4 infoblock_bold">Standort</dt>
+                            <dd class="col-sm-8 infoblock text-end">Bonnenbergstraße 4, Essen</dd>
+                            <dt class="col-sm-4 infoblock_bold">Bauherr</dt>
+                            <dd class="col-sm-8 infoblock text-end">Remigios GmbH & Co.KG, Essen</dd>
+                            <dt class="col-sm-4 infoblock_bold">Architektur</dt>
+                            <dd class="col-sm-8 infoblock text-end">studio ELE, Köln</dd>
+                            <dt class="col-sm-4 infoblock_bold">Statik/Bauphysik</dt>
+                            <dd class="col-sm-8 infoblock text-end">Gabriel & Partner, Telgte</dd>
+                            <dt class="col-sm-4 infoblock_bold">Bauleitung</dt>
+                            <dd class="col-sm-8 infoblock text-end">Dipl.-Ing. Jörg-Peter Gabriel</dd>
+                        </dl>
 
-
-            <!-- ZWEITE ZEILE: PROJEKTNAME -->
-            <div class="row pr-name align-items-center bkgrd_2">
-                <div class="col-12 text-center">
-                    Mehrfamilienhaus mit 6 Wohneinheiten und Tiefgarage
+                        <!-- TEXT -->
+                        <div class="infoblock">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error doloremque labore,
+                            molestiae repudiandae animi ex a non officiis nam fugit repellendus it. Repellat, errit. Repellat, error
+                            or nihil odio voluptatum beatae vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error doloremque labore,
+                            molestiae repudiandae animi ex a non officiis nam fugit repellendus nihil odio corporis voluptatum beatae
+                            molestiae repudiandae animi ex a non officiis nam fugit repellendus nihil odio corporis voluptatum beatae
+                            vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error it. Repellat, error
+                            doloremque labore, molestiae molestiae repudiandae animi ex a non officiis nam fugit repellendus nihil odio corporis voluptatum beatae
+                            vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error doloremque labore,
+                            molestiae repudiandae animi ex a non officiis nam fugit repellendus nihil odio corporis voluptatum beatae
+                            vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error it. Repellat, error
+                            doloremque labore, molestiae molestiae repudiandae animi ex a non officiis nam fugit repellendus nihil odio corporis voluptatum beatae
+                            vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error doloremque labore,
+                            molestiae repudiandae animi ex a non officiis nam fugit repellendus nihil odio corporis voluptatum beatae
+                            vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error it. Repellat, error
+                            doloremque labore, molestiae                          
+                            vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error doloremque labore,
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -89,56 +113,29 @@
 
             <!-- VIERTE ZEILE: INFO-TOGGLER -->
             <div class="row sticky-bottom align-items-center pr-info">
-                <div class="col-4 text-start">
+                <div class="col-2 text-start">
                     <div class="h-100 d-flex align-items-center">
                         <a class="text-dark" href="https://www.instagram.com/studio.ele.de/"><img src="img/instagram.svg" alt="…"></i>
                     </a>
                 </div>
             </div>
-            <div class="col-4 text-center">
-                <a class="link" data-bs-toggle="offcanvas" href="#projectInfo" role="button" aria-controls="projectInfo">
-                    Projektinfo
+            <div class="col-3 text-end">
+                <a class="link" href="">
+                    über
                 </a>
             </div>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="projectInfo" data-bs-scroll="true" data-bs-backdrop="true" aria-labelledby="projectInfoLabel">
-                <div class="offcanvas-body">
-                    <div>
-                        <dl class="row">
-                            <dt class="col-sm-4 infoblock_bold">Standort</dt>
-                            <dd class="col-sm-8 infoblock text-end">Bonnenbergstraße 4, Essen</dd>
-                            <dt class="col-sm-4 infoblock_bold">Bauherr</dt>
-                            <dd class="col-sm-8 infoblock text-end">Remigios GmbH & Co.KG, Essen</dd>
-                            <dt class="col-sm-4 infoblock_bold">Architektur</dt>
-                            <dd class="col-sm-8 infoblock text-end">studio ELE, Köln</dd>
-                            <dt class="col-sm-4 infoblock_bold">Statik/Bauphysik</dt>
-                            <dd class="col-sm-8 infoblock text-end">Gabriel & Partner, Telgte</dd>
-                            <dt class="col-sm-4 infoblock_bold">Bauleitung</dt>
-                            <dd class="col-sm-8 infoblock text-end">Dipl.-Ing. Jörg-Peter Gabriel</dd>
-                        </dl>
-
-                        <!-- TEXT -->
-                        <div class="infoblock">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error doloremque labore,
-                                                      molestiae repudiandae animi ex a non officiis nam fugit repellendus it. Repellat, errit. Repellat, error
-                                                      or nihil odio voluptatum beatae vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error doloremque labore,
-                                                      molestiae repudiandae animi ex a non officiis nam fugit repellendus nihil odio corporis voluptatum beatae
-                                                      vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error doloremque labore,
-                                                      molestiae repudiandae animi ex a non officiis nam fugit repellendus nihil odio corporis voluptatum beatae
-                                                      vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error it. Repellat, error
-                                                      doloremque labore, molestiae molestiae repudiandae animi ex a non officiis nam fugit repellendus nihil odio corporis voluptatum beatae
-                                                      vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error doloremque labore,
-                                                      molestiae repudiandae animi ex a non officiis nam fugit repellendus nihil odio corporis voluptatum beatae
-                                                      vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error it. Repellat, error
-                                                      doloremque labore, molestiae molestiae repudiandae animi ex a non officiis nam fugit repellendus nihil odio corporis voluptatum beatae
-                                                      vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error doloremque labore,
-                                                      molestiae repudiandae animi ex a non officiis nam fugit repellendus nihil odio corporis voluptatum beatae
-                                                      vero quas aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, error it. Repellat, error
-                                                      doloremque labore, molestiae
-                        </div>
-                    </div>
-                </div>
+            <div class="col-2 text-center">
+                <a class="link" href="">
+                    projekte
+                </a>
             </div>
-            <div class="col-4 text-end logo">
+            <div class="col-3 text-start">
+                <a class="link" href="">
+                    kontakt
+                </a>
+            </div>
+
+            <div class="col-2 text-end logo">
                 .ELE
             </div>
         </div>
@@ -147,7 +144,7 @@
         <!-- FÜNFTE ZEILE: FOOTER -->
         <div class="row foot g-0 align-items-start">
             <div class="col-12">
-                impressum / datenschutz
+                &copy 2023 &middot; impressum &middot; datenschutz
             </div>
         </div>
 

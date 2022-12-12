@@ -80,7 +80,7 @@ img{
 .text-header-l {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   color: black;
 }
 
@@ -94,14 +94,14 @@ img{
 .infoblock {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  font-size: 0.75;
+  font-size: 0.85rem;
   text-align: justify;
 }
 
 .infoblock_bold {
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-  font-size: 0.75;
+  font-size: 0.85rem;
   text-align: justify;
 }
 
@@ -114,7 +114,7 @@ img{
 
 .logo {
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.55rem;
+  font-size: 1.65rem;
 }
 
 
@@ -127,10 +127,21 @@ img{
   text-align: center;
   text-decoration: none;
 }
-
 .link:hover  {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.link_bold {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link_bold:hover  {
   color: black;
   text-align: center;
   text-decoration: underline;
