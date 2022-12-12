@@ -6,7 +6,7 @@ body {
   max-width: 1980px;
   margin: 0 auto;
   margin-top: 8.5vh;
-  background-color: white;
+  background-color: rgb(188, 59, 59);
 }
 
 .collapsing {
@@ -52,6 +52,7 @@ body {
   text-decoration: underline;
   border-radius: 0;
 }
+
 
 
 /* .btn{ */
@@ -147,3 +148,31 @@ body {
   .bkgrd_3  {
     background-color: rgb(74, 15, 212);
   } */
+
+
+  /* NAVBAR_BOTTOM */
+.navigation_bottom {
+  bottom: 25px;
+  max-width: 1980px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+/* LOGO */
+.logo  {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 24pt;
+  padding: 0px;
+  text-align: right;
+}
+
+  /* FOOTER */
+.footer{
+  max-width: 1980px;
+  margin: 0 auto;
+  height: 25px;
+  bottom: 0;
+  background-color: white;
+  font-size: 0.75rem;
+}
+/* END FOOTER */
