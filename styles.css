@@ -28,6 +28,8 @@ body {
 }
 
 .btns-outline {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
   text-decoration: underline;
   outline: none !important;
   box-shadow: none !important;
@@ -90,6 +92,14 @@ body {
     text-align: justify;
     font-size: 0.85rem;
     background-color: #ffffff;
+}
+
+.text-2 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  text-align: justify;
+  font-size: 0.85rem;
+  background-color: #ffffff;
 }
 
 
@@ -176,3 +186,8 @@ body {
   font-size: 0.75rem;
 }
 /* END FOOTER */
+
+
+.offcanvas-size-sm {
+  --bs-offcanvas-width: min(95vw, 400px) !important;
+}
