@@ -24,10 +24,6 @@ img{
 /* HEADER */
 .header {
   height: 30px;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
-  font-size: 1.05rem;
-  color: black;
 }
 
 /* PROJEKTNAME */
@@ -39,7 +35,7 @@ img{
 }
 
 .content {
-  padding: 77px auto 50px auto;
+  padding: 77px auto 55px auto;
   margin-top: 5px;
 }
 
@@ -50,13 +46,21 @@ img{
   font-weight: 400;
   font-size: 0.9rem;
   background-color: white;
-  height: 35px;
+  height: 40px;
   bottom: 25px;
 }
 
 /* FOOTER */
 .foot {
+  max-width: 1980px;
+  margin: 0 auto;
   height: 25px;
+  bottom: 0;
+  position: fixed;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  color: grey;
 }
 
 
@@ -66,20 +70,39 @@ img{
 .p {
   font-family: 'Work Sans', sans-serif;
   font-weight: 200;
+  font-size: 0.78;
 }
 
-.p_cpaptation {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
-  font-size: 0.9rem;
+.p_captation {
   background-color: white;
 }
 
-.text-header {
+.text-header-l {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   color: black;
+}
+
+.text-header-m {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.95rem;
+  color: black;
+}
+
+.infoblock {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.75;
+  text-align: justify;
+}
+
+.infoblock_bold {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.75;
+  text-align: justify;
 }
 
 .text-footer {
@@ -93,6 +116,39 @@ img{
   font-family: 'Libre Baskerville', serif;
   font-size: 1.55rem;
 }
+
+
+/* LINK STYLING */
+
+.link  {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link:hover  {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* CAROUSEL */
+
+.carousel-caption {
+  /* text-align: right; */
+  position: relative;
+  left: 0%;
+  top: -50px;
+  height: 2rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  font-style: italic;
+  }
 
 
 
