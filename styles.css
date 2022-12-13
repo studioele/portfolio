@@ -12,7 +12,7 @@ body {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 img{
@@ -35,7 +35,7 @@ img{
 }
 
 .content {
-  padding: 77px auto 55px auto;
+  padding: 77px auto 120px auto;
   margin-top: 5px;
 }
 
@@ -67,6 +67,7 @@ img{
 .fixed-row-bottom { 
   position: sticky;
   bottom:25px;
+  width:100%;
 }
 
 
