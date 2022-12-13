@@ -64,6 +64,12 @@ img{
 }
 
 
+.fixed-row-bottom { 
+  position: sticky;
+  bottom:25px;
+}
+
+
 
 /* TEXT */
 
@@ -94,14 +100,22 @@ img{
 .infoblock {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  font-size: 0.75;
+  font-size: 0.8rem;
   text-align: justify;
+}
+
+.infoblock_start {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  text-align: justify;
+  text-indent: 50px;
 }
 
 .infoblock_bold {
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-  font-size: 0.75;
+  font-size: 0.8rem;
   text-align: justify;
 }
 
