@@ -4,63 +4,32 @@ html {
 
 body {
   max-width: 1980px;
-  margin: 8px auto; 
+  margin: 45px 25px 75px 25px;
   background-color: rgb(255, 255, 255);
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-img{
-  max-height: 100%;
 }
 
 
+/* MAIN_LAYOUT */
 
 /* HEADER */
 .header {
-  height: 30px;
+  height: 45px;
+  background-color: rgb(255, 255, 255);
 }
 
-/* PROJEKTNAME */
-.pr-name {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
-  font-size: 1.05rem;
-  height: 40px;
-}
-
-.content {
-  padding: 77px auto 55px auto;
-  margin-top: 5px;
-}
-
-
-/* PROJEKINFO */
-.pr-info {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
-  font-size: 0.9rem;
-  background-color: white;
-  height: 40px;
-  bottom: 25px;
+/* NAVIGATION */
+.navigationbar {
+  margin: 0px;
+  padding: 5px;
+  bottom: 0px;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
 }
 
 /* FOOTER */
 .foot {
-  max-width: 1980px;
-  margin: 0 auto;
-  height: 25px;
-  bottom: 0;
-  position: fixed;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
-  font-size: 0.75rem;
-  color: grey;
+  margin: 0px;
+  padding: 0px 25px 0px 25px;
 }
 
 
@@ -80,7 +49,7 @@ img{
 .text-header-l {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: black;
 }
 
@@ -114,7 +83,7 @@ img{
 
 .logo {
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.65rem;
+  font-size: 1.85rem;
 }
 
 
@@ -131,6 +100,7 @@ img{
   color: black;
   text-align: center;
   text-decoration: underline;
+  cursor: crosshair;
 }
 
 .link_bold {
